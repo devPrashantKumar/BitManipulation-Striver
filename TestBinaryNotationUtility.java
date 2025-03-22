@@ -1,4 +1,4 @@
-public class TestUtility {
+public class TestBinaryNotationUtility {
     public static void main(String[] args) {
         System.out.println(BinaryNotationUtility.decimalToBinaryString(0));
         System.out.println(BinaryNotationUtility.decimalToBinaryString(10));
