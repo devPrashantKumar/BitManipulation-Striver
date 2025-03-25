@@ -5,6 +5,9 @@ public class BinaryOperator {
     } 
     
     public static int orOperator(int operand1, int operand2){
+        System.out.println(Integer.toBinaryString(operand1));
+        System.out.println(Integer.toBinaryString(operand2));
+        System.out.println(Integer.toBinaryString(operand1|operand2));
         return operand1|operand2;
     }
 
